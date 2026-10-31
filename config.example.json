@@ -1,0 +1,7 @@
+{
+  "port": 3080,
+  "password": "kies-een-wachtwoord",
+  "dataFile": "data/data.json",
+  "autoScanMinutes": 5,
+  "allowRemoteOpen": false
+}

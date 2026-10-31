@@ -1,0 +1,15 @@
+{
+  "name": "content-tracker",
+  "version": "1.0.0",
+  "description": "Shared tracker for show content between content maker and media server (Dropbox -> server)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "import": "node scripts/import.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
